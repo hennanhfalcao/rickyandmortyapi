@@ -42,4 +42,4 @@ class RickAndMorty(models.Model):
         verbose_name_plural = "Personagens"
     
     def __str__(self):
-        return f"{self.fact}"
+        return f"{self.nome}"
